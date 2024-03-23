@@ -53,43 +53,48 @@ export const Footer: React.FC<{
       ) : null}
 
       <div className={styles.social}>
-        {config.github && (
-          <a
-            className={styles.github}
-            href={`https://github.com/${config.github}`}
-            title={`GitHub @${config.github}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <span className={styles.tooltiptext}>@{config.github}</span>
-            <SiGithub />
-          </a>
-        )}
-        {config.wechatPublicName && (
-          <a
-            className={styles.wechatPublicName}
-            href={`${config.wechatPublicURL}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <SiWechat />
-            <span className={styles.tooltiptext}>
-              公众号: {config.wechatPublicName}
-            </span>
-          </a>
-        )}
-        {config.notionPublic && (
-          <a
-            className={styles.notionPublic}
-            href={`${config.notionPublic}`}
-            title='通过 Notion 打开'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <SiNotion />
-            <span className={styles.tooltiptext}>从 Notion 打开</span>
-          </a>
-        )}
+        {/*隐藏github*/}
+        {/*{config.github && (*/}
+        {/*  <a*/}
+        {/*    className={styles.github}*/}
+        {/*    href={`https://github.com/${config.github}`}*/}
+        {/*    title={`GitHub @${config.github}`}*/}
+        {/*    target='_blank'*/}
+        {/*    rel='noopener noreferrer'*/}
+        {/*  >*/}
+        {/*    <span className={styles.tooltiptext}>@{config.github}</span>*/}
+        {/*    <SiGithub />*/}
+        {/*  </a>*/}
+        {/*)}*/}
+
+        {/*隐藏wechat*/}
+        {/*{config.wechatPublicName && (*/}
+        {/*  <a*/}
+        {/*    className={styles.wechatPublicName}*/}
+        {/*    href={`${config.wechatPublicURL}`}*/}
+        {/*    target='_blank'*/}
+        {/*    rel='noopener noreferrer'*/}
+        {/*  >*/}
+        {/*    <SiWechat />*/}
+        {/*    <span className={styles.tooltiptext}>*/}
+        {/*      公众号: {config.wechatPublicName}*/}
+        {/*    </span>*/}
+        {/*  </a>*/}
+        {/*)}*/}
+
+        {/*隐藏notion*/}
+        {/*{config.notionPublic && (*/}
+        {/*  <a*/}
+        {/*    className={styles.notionPublic}*/}
+        {/*    href={`${config.notionPublic}`}*/}
+        {/*    title='通过 Notion 打开'*/}
+        {/*    target='_blank'*/}
+        {/*    rel='noopener noreferrer'*/}
+        {/*  >*/}
+        {/*    <SiNotion />*/}
+        {/*    <span className={styles.tooltiptext}>从 Notion 打开</span>*/}
+        {/*  </a>*/}
+        {/*)}*/}
       </div>
     </footer>
   )
