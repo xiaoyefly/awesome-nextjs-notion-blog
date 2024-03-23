@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://szufrank.top',
+  siteUrl: 'https://awesome-nextjs-notion-blog-pi.vercel.app',
   generateRobotsTxt: true,
   sitemapSize: 7000,
 }
