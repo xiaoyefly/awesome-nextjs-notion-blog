@@ -52,7 +52,7 @@ NOTE: if you have multiple pages in your workspace with the same slugified name,
 
 ## License
 
-MIT © 
+MIT ©
 
 This project based on [transitivebullsh.it](https://transitivebullsh.it).
 
